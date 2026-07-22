@@ -15,6 +15,7 @@ captures/
 *.aab
 *.apk
 output-metadata.json
+!docs/lunlun-launcher.apk
 
 # IntelliJ
 *.iml
