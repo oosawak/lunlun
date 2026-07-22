@@ -9,13 +9,6 @@
       content="Lunlun Launcher の APK をダウンロードするための GitHub Pages 用ページです。"
     />
     <link rel="stylesheet" href="./style.css" />
-    <script>
-      window.addEventListener("load", () => {
-        setTimeout(() => {
-          window.location.href = "./app-debug.apk";
-        }, 700);
-      });
-    </script>
   </head>
   <body>
     <main class="shell">
@@ -24,20 +17,19 @@
         <h1>APK ダウンロード</h1>
         <p class="lede">
           ここから APK を取得して、Android 端末で開いてインストールしてください。
-          必要なら「不明なアプリのインストール」を許可します。
+          ファイル名は <strong>lunlun-launcher.apk</strong> です。
         </p>
         <div class="actions">
-          <a class="primary" href="./app-debug.apk" download>Download APK</a>
+          <a class="primary" href="./lunlun-launcher.apk" download>Download APK</a>
           <a class="secondary" href="#steps">Install steps</a>
         </div>
         <p class="hint">
-          0.7 秒後に APK のダウンロードへ移動します。うまく始まらない場合は
-          <strong>Download APK</strong> を押してください。
+          ダウンロードが始まらない場合は <strong>Download APK</strong> を押してください。
         </p>
         <div class="meta">
           <div>
             <span>File</span>
-            <strong>app-debug.apk</strong>
+            <strong>lunlun-launcher.apk</strong>
           </div>
           <div>
             <span>Build</span>
